@@ -205,7 +205,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     },
     {
       name: "Bad Apple in ASCII",
-      subtitle: "",
+      subtitle: "ASCII Video Player",
       description:
         "A simple project to display the Bad Apple video in ASCII characters.",
       icon: <Terminal color='#c084fc' size={40} />,
