@@ -1,4 +1,4 @@
-import { Experience } from "@/interfaces";
+import { Experience } from "../interfaces";
 import { Badge } from "@/components/ui/badge"
 import { formatDateYYYMM } from "@/lib/utils";
 

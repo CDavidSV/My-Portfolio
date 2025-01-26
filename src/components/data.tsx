@@ -1,17 +1,19 @@
+"use client";
+
 import { createContext, ReactNode, useState } from "react";
-import Go from "./assets/technologies/go";
-import Typescript from "./assets/technologies/typescript";
-import Python from "./assets/technologies/python";
-import ReactIcon from "./assets/technologies/react";
-import AngularIcon from "./assets/technologies/angular";
-import NodeJSIcon from "./assets/technologies/nodedotjs";
-import FastAPIIcon from "./assets/technologies/fastapi";
-import AWSIcon from "./assets/technologies/amazonwebservices";
-import PostgresIcon from "./assets/technologies/postgresql";
-import MongoDBIcon from "./assets/technologies/mongodb";
-import DockerIcon from "./assets/technologies/docker";
-import JavascriptIcon from "./assets/technologies/javascript";
-import UnityIcon from "./assets/technologies/unity";
+import Go from "../assets/technologies/go";
+import Typescript from "../assets/technologies/typescript";
+import Python from "../assets/technologies/python";
+import ReactIcon from "../assets/technologies/react";
+import AngularIcon from "../assets/technologies/angular";
+import NodeJSIcon from "../assets/technologies/nodedotjs";
+import FastAPIIcon from "../assets/technologies/fastapi";
+import AWSIcon from "../assets/technologies/amazonwebservices";
+import PostgresIcon from "../assets/technologies/postgresql";
+import MongoDBIcon from "../assets/technologies/mongodb";
+import DockerIcon from "../assets/technologies/docker";
+import JavascriptIcon from "../assets/technologies/javascript";
+import UnityIcon from "../assets/technologies/unity";
 import {
   Code,
   Film,
@@ -22,20 +24,20 @@ import {
   PartyPopper,
   University,
 } from "lucide-react";
-import { Technology, Experience, Project, Education } from "./interfaces";
+import { Technology, Experience, Project, Education } from "../interfaces";
 
 interface Data {
-    techStack: Technology[];
-    experience: Experience[];
-    projects: Project[];
-    education: Education[];
+  techStack: Technology[];
+  experience: Experience[];
+  projects: Project[];
+  education: Education[];
 }
 
 export const DataContext = createContext<Data>({
-    techStack: [],
-    experience: [],
-    projects: [],
-    education: [],
+  techStack: [],
+  experience: [],
+  projects: [],
+  education: [],
 });
 
 export function DataProvider({ children }: { children: ReactNode }) {
@@ -105,8 +107,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       description:
         "An Interactive Movie app that allows you to create lists and keep track of the movies and TV shows you are watching or plan to watch.",
       icon: <Film color='#c084fc' size={40} />,
-      image:
-        "https://private-user-images.githubusercontent.com/88672259/321512400-0ae02d58-4215-4274-9665-2a13e7c7b6e0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc4NDM4ODEsIm5iZiI6MTczNzg0MzU4MSwicGF0aCI6Ii84ODY3MjI1OS8zMjE1MTI0MDAtMGFlMDJkNTgtNDIxNS00Mjc0LTk2NjUtMmExM2U3YzdiNmUwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTI1VDIyMTk0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdhMjBiMjRjZWY1ZTMyZTQ4Mzg3MjAyYmE3MjM0ODkyYTJiMmNmMWFlZTYyN2FjOTM3NmM2NjdlNWIxMDkwY2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zLmBOQ5vSj9AyzDs9nMl8AWKjm30r3beQW0mFbfkW5s",
+      image: "/img/mymovielist.png",
       link: "https://www.mymovielist.cdavidsv.dev/",
       github: "https://github.com/CDavidSV/Movie-List-App",
       technologies: [
@@ -147,8 +148,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       github:
         "https://github.com/CDavidSV/Avenue-Multiagent-System-Simulation-API",
       link: "https://drive.google.com/file/d/1L2Uh6jvCdjabWiA1vxYWZZ551p-J2Rg7/view?usp=drive_link",
-      image:
-        "https://private-user-images.githubusercontent.com/88672259/287579437-4942a1ea-5ab9-45d9-ac1c-8ec0697dce94.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc4NDc4MjUsIm5iZiI6MTczNzg0NzUyNSwicGF0aCI6Ii84ODY3MjI1OS8yODc1Nzk0MzctNDk0MmExZWEtNWFiOS00NWQ5LWFjMWMtOGVjMDY5N2RjZTk0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTI1VDIzMjUyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkwZDY3NGY0ZDRiY2Q0MTM5NjNjNWI5ODc0MWY1ZDk0ZjdlOTRlYjRlZWRjYjQzNzRiNmI2OGU4YTYzZjAzOTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.yafoKKgb2fbsOzcEZiv838lMLmsLUz1nP6O3H00mT2Y",
+      image: "img/multiagentes.png",
     },
     {
       name: "New Year Countdown",
@@ -232,10 +232,16 @@ export function DataProvider({ children }: { children: ReactNode }) {
     },
   ]);
 
-  return <DataContext.Provider value={{
-    techStack,
-    experience,
-    projects,
-    education,
-  }}>{children}</DataContext.Provider>;
+  return (
+    <DataContext.Provider
+      value={{
+        techStack,
+        experience,
+        projects,
+        education,
+      }}
+    >
+      {children}
+    </DataContext.Provider>
+  );
 }

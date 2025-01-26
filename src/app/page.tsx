@@ -1,15 +1,16 @@
-import { useContext, useState } from "react";
-import { Avatar, AvatarFallback, AvatarImage } from "./components/ui/avatar";
-import { MapPin } from "lucide-react";
-import { Separator } from "./components/ui/separator";
-import Pfp from "./assets/img/CDavidBiblio.webp";
-import ExperienceCard from "./components/experienceCard";
-import Socials from "./components/socials";
-import ProjectCard from "./components/projectCard";
-import EducationCard from "./components/educationCard";
-import { DataContext } from "./data";
+"use client"
 
-function App() {
+import { useContext, useState } from "react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { MapPin } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
+import ExperienceCard from "@/components/experienceCard";
+import Socials from "@/components/socials";
+import ProjectCard from "@/components/projectCard";
+import EducationCard from "@/components/educationCard";
+import { DataContext } from "@/components/data";
+
+export default function Home() {
   const { techStack, experience, projects, education } = useContext(DataContext);
 
   const [allProjects, setAllProjects] = useState<boolean>(false);
@@ -21,7 +22,7 @@ function App() {
         <header>
           <div className='flex flex-wrap justify-center md:justify-normal'>
             <Avatar className='h-[150px] w-[150px] mr-0 mb-3 md:mb-0 md:mr-6'>
-              <AvatarImage src={Pfp} />
+              <AvatarImage src="/img/CDavidBiblio.webp" alt="Carlos David Sandoval Vargas" />
               <AvatarFallback>CS</AvatarFallback>
             </Avatar>
             <div className='text-center md:text-start flex justify-center flex-col'>
@@ -122,5 +123,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

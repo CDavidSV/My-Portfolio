@@ -1,4 +1,4 @@
-import { Project } from "@/interfaces";
+import { Project } from "../interfaces";
 import { Github, Link } from "lucide-react";
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -14,8 +14,8 @@ export default function ProjectCard({ project }: { project: Project }) {
           <p className='text-muted-foreground'>{project.description}</p>
 
           <div className='flex gap-2 flex-wrap'>
-            {project.technologies.map((tech) => (
-              <span className='flex items-center gap-2 rounded-full bg-gray-900 py-1 px-2 max-w-min cursor-default'>
+            {project.technologies.map((tech, i) => (
+              <span key={i} className='flex items-center gap-2 rounded-full bg-gray-900 py-1 px-2 max-w-min cursor-default'>
                 {tech.icon}
                 <p className='text-xs font-semibold text-muted-foreground'>
                   {tech.name}
@@ -29,6 +29,7 @@ export default function ProjectCard({ project }: { project: Project }) {
               <a
                 target='_blank'
                 rel='noreferrer'
+                aria-label="Link to project"
                 href={project.link}
                 className='flex items-center gap-2 rounded-full py-1 px-3 max-w-min bg-primary/45 hover:bg-primary/65 transition-colors ease-in-out duration-300'
               >
@@ -39,6 +40,7 @@ export default function ProjectCard({ project }: { project: Project }) {
               <a
                 target='_blank'
                 rel='noreferrer'
+                aria-label="Link to project's repository"
                 href={project.github}
                 className='flex items-center gap-2 rounded-full py-1 px-3 max-w-min bg-primary/45 hover:bg-primary/65 transition-colors ease-in-out duration-300'
               >
