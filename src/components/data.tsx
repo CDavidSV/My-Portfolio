@@ -148,7 +148,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       github:
         "https://github.com/CDavidSV/Avenue-Multiagent-System-Simulation-API",
       link: "https://drive.google.com/file/d/1L2Uh6jvCdjabWiA1vxYWZZ551p-J2Rg7/view?usp=drive_link",
-      image: "img/multiagentes.png",
+      image: "/img/multiagentes.png",
     },
     {
       name: "New Year Countdown",

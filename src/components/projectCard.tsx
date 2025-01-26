@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Project } from "../interfaces";
 import { Github, Link } from "lucide-react";
 
@@ -51,9 +52,11 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
       </div>
       <div className="mb-3 sm:mb-0 w-full sm:w-1/3 rounded-2xl h-52 overflow-hidden">
-        <img
+        <Image
           src={project.image}
           alt={project.name}
+          width={500}
+          height={500}
           className='object-cover w-full h-full'
           loading="lazy"
         />
