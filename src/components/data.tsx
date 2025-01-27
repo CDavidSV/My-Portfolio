@@ -94,8 +94,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
       description:
         "Interned at Wizeline's Academy team, contributing to their own version of the Odoo e-learning module by implementing new views and backend models for a lecturers feature, managing data retrieval, and overseeing code reviews and merges from development to staging.",
       position: "Software Engineer Intern",
-      startDate: new Date("2024-08-01"),
-      endDate: new Date("2024-11-29"),
+      startDate: new Date("2024/08/01"),
+      endDate: new Date("2024/11/29"),
       icon: <Code color='#c084fc' size={40} />,
     },
   ]);
@@ -151,27 +151,6 @@ export function DataProvider({ children }: { children: ReactNode }) {
       image: "/img/multiagentes.png",
     },
     {
-      name: "New Year Countdown",
-      subtitle: "Page that counts down to the new year with fireworks",
-      description:
-        "Counts down to the new year in the user's timezone. Allows users to shoot firesworks that other users can see as well.",
-      icon: <PartyPopper color='#c084fc' size={40} />,
-      technologies: [
-        {
-          name: "Typescript",
-          icon: <Typescript className='fill-gray-400 h-4' />,
-        },
-        {
-          name: "Golang",
-          icon: <Go className='fill-gray-400 h-4' />,
-        },
-      ],
-      github: "https://github.com/CDavidSV/New-Year-Countdown",
-      link: "https://newyear.cdavidsv.dev/",
-      image:
-        "https://github.com/CDavidSV/New-Year-Countdown/blob/main/frontend/src/assets/images/gif_demo.gif?raw=true",
-    },
-    {
       name: "LOGO",
       subtitle: "Simple implementation of a LOGO interpreter",
       description:
@@ -189,10 +168,35 @@ export function DataProvider({ children }: { children: ReactNode }) {
       ],
     },
     {
+      name: "New Year Countdown",
+      subtitle: "Page that counts down to the new year with fireworks",
+      description:
+        "Counts down to the new year in the user's timezone. Allows users to shoot firesworks that other users can see as well.",
+      icon: <PartyPopper color='#c084fc' size={40} />,
+      technologies: [
+        {
+          name: "Typescript",
+          icon: <Typescript className='fill-gray-400 h-4' />,
+        },
+        {
+          name: "Golang",
+          icon: <Go className='fill-gray-400 h-4' />,
+        },
+        {
+          name: "AWS",
+          icon: <AWSIcon className='fill-gray-400 w-4' />,
+        },
+      ],
+      github: "https://github.com/CDavidSV/New-Year-Countdown",
+      link: "https://newyear.cdavidsv.dev/",
+      image:
+        "https://github.com/CDavidSV/New-Year-Countdown/blob/main/frontend/src/assets/images/gif_demo.gif?raw=true",
+    },
+    {
       name: "Dead Links Checker",
       subtitle: "Web Scraper to check for dead links",
       description:
-        "A simple web scraper that checks for dead links in a website and returns a list of broken links.",
+        "A web scraper that checks for dead links in a website and returns a list of broken links.",
       icon: <Unlink color='#c084fc' size={40} />,
       technologies: [
         {
@@ -207,7 +211,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       name: "Bad Apple in ASCII",
       subtitle: "ASCII Video Player",
       description:
-        "A simple project to display the Bad Apple video in ASCII characters.",
+        "A simple project to display the Bad Apple video in the terminal using ASCII characters.",
       icon: <Terminal color='#c084fc' size={40} />,
       technologies: [
         {
@@ -224,10 +228,10 @@ export function DataProvider({ children }: { children: ReactNode }) {
   const [education] = useState<Education[]>([
     {
       institution: "Tecnológico de Monterrey",
-      subtitle: "College",
+      subtitle: "Nuevo León, MX",
       description: "BSc in Computer Science",
-      startDate: new Date("2021-08-01"),
-      endDate: new Date("2025-12-01"),
+      startDate: new Date("2021/08/01"),
+      endDate: new Date("2025/12/01"),
       icon: <University className='mb-1' color='#c084fc' size={40} />,
     },
   ]);

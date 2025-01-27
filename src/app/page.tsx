@@ -84,7 +84,7 @@ export default function Home() {
         <section>
           <h3 className='mb-5 text-2xl font-bold'>Projects</h3>
           {projects.map((p, i) =>
-            i > 3 ? (
+            i > 4 ? (
               <div key={p.name} className={!allProjects ? "hidden" : ""}>
                 <ProjectCard project={p} />
               </div>

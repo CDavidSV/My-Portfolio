@@ -51,14 +51,13 @@ export default function ProjectCard({ project }: { project: Project }) {
           </div>
         </div>
       </div>
-      <div className="mb-3 sm:mb-0 w-full sm:w-1/3 rounded-2xl h-52 overflow-hidden">
+      <div className="mb-3 sm:mb-0 w-full sm:w-1/3 rounded-xl h-52 overflow-hidden">
         <Image
           src={project.image}
           alt={project.name}
           width={500}
           height={500}
           className='object-cover w-full h-full'
-          loading="lazy"
         />
       </div>
     </div>
