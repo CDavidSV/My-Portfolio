@@ -14,6 +14,7 @@ import MongoDBIcon from "../assets/technologies/mongodb";
 import DockerIcon from "../assets/technologies/docker";
 import JavascriptIcon from "../assets/technologies/javascript";
 import UnityIcon from "../assets/technologies/unity";
+import ExpressIcon from "@/assets/technologies/express";
 import {
   Code,
   Film,
@@ -67,6 +68,10 @@ export function DataProvider({ children }: { children: ReactNode }) {
       icon: <NodeJSIcon className='fill-purple-400 w-5' />,
     },
     {
+      name: "Express",
+      icon: <ExpressIcon className='fill-purple-400 w-5' />,
+    },
+    {
       name: "FastAPI",
       icon: <FastAPIIcon className='fill-purple-400 w-5' />,
     },
@@ -118,6 +123,10 @@ export function DataProvider({ children }: { children: ReactNode }) {
         {
           name: "Node.js",
           icon: <NodeJSIcon className='fill-gray-400 w-4' />,
+        },
+        {
+          name: "Express",
+          icon: <ExpressIcon className='fill-gray-400 w-4' />,
         },
         {
           name: "MongoDB",
