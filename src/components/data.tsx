@@ -240,7 +240,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       subtitle: "Nuevo León, MX",
       description: "BSc in Computer Science",
       startDate: new Date("2021/08/01"),
-      endDate: new Date("2025/12/01"),
+      endDate: new Date("2026/08/01"),
       icon: <University className='mb-1' color='#c084fc' size={40} />,
     },
   ]);
