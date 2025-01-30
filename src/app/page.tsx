@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useContext, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -11,7 +11,8 @@ import EducationCard from "@/components/educationCard";
 import { DataContext } from "@/components/data";
 
 export default function Home() {
-  const { techStack, experience, projects, education } = useContext(DataContext);
+  const { techStack, experience, projects, education } =
+    useContext(DataContext);
 
   const [allProjects, setAllProjects] = useState<boolean>(false);
 
@@ -22,7 +23,10 @@ export default function Home() {
         <header>
           <div className='flex flex-wrap justify-center md:justify-normal'>
             <Avatar className='h-[150px] w-[150px] mr-0 mb-3 md:mb-0 md:mr-6'>
-              <AvatarImage src="/img/CDavidBiblio.webp" alt="Carlos David Sandoval Vargas" />
+              <AvatarImage
+                src='/img/CDavidBiblio.webp'
+                alt='Carlos David Sandoval Vargas'
+              />
               <AvatarFallback>CS</AvatarFallback>
             </Avatar>
             <div className='text-center md:text-start flex justify-center flex-col'>
@@ -34,7 +38,7 @@ export default function Home() {
               </h2>
 
               <span className='flex items-center justify-center md:justify-start mt-2'>
-                <MapPin className='mr-1' />
+                <MapPin color='#6d28d9' className='mr-1' />
                 <p>Monterrey, MX</p>
               </span>
 
@@ -42,7 +46,7 @@ export default function Home() {
             </div>
           </div>
 
-          <h3 className='mt-6 mb-1 text-2xl font-bold'>About me</h3>
+          <h3 className='mt-6 mb-2 text-2xl font-bold'>About me</h3>
           <p>
             I'm a computer science student and software developer with a knack
             for building efficient and scalable applications. My expertise spans
@@ -57,7 +61,7 @@ export default function Home() {
 
         {/* Technologies section */}
         <section>
-          <h3 className='mb-2 text-2xl font-bold'>Technologies</h3>
+          <h3 className='mb-3 text-2xl font-bold'>Technologies</h3>
           <div className='flex gap-2 flex-wrap justify-center md:justify-normal'>
             {techStack.map((tech) => (
               <span
@@ -74,7 +78,7 @@ export default function Home() {
         <Separator className='my-8' orientation='horizontal' />
 
         <section>
-          <h3 className='mb-5 text-2xl font-bold'>Experience</h3>
+          <h3 className='mb-3 text-2xl font-bold'>Experience</h3>
           {experience.map((exp) => (
             <ExperienceCard key={exp.company} experience={exp} />
           ))}
@@ -82,7 +86,7 @@ export default function Home() {
 
         <Separator className='my-8' orientation='horizontal' />
         <section>
-          <h3 className='mb-5 text-2xl font-bold'>Projects</h3>
+          <h3 className='mb-3 text-2xl font-bold'>Projects</h3>
           {projects.map((p, i) =>
             i > 4 ? (
               <div key={p.name} className={!allProjects ? "hidden" : ""}>
@@ -105,7 +109,7 @@ export default function Home() {
         <Separator className='my-8' orientation='horizontal' />
 
         <section>
-          <h3 className='mb-5 text-2xl font-bold'>Education</h3>
+          <h3 className='mb-3 text-2xl font-bold'>Education</h3>
           {education.map((edu) => (
             <EducationCard key={edu.institution} education={edu} />
           ))}
