@@ -24,6 +24,7 @@ import {
   Car,
   PartyPopper,
   University,
+  ImageIcon
 } from "lucide-react";
 import { Technology, Experience, Project, Education } from "../interfaces";
 
@@ -232,6 +233,24 @@ export function DataProvider({ children }: { children: ReactNode }) {
       link: "",
       image: "/gif/badapple.gif",
     },
+    {
+      name: "DamiPic",
+      subtitle: "Generate placeholder images",
+      description: "Interactive website that allows users to generate placeholder images. Users can select the size, color, image format, and add text to display on the image.",
+      icon: <ImageIcon color='#c084fc' size={40} />,
+      technologies: [
+        {
+          name: "Golang",
+          icon: <Go className='fill-gray-400 h-4' />,
+        },
+        {
+          name: "Javascript",
+          icon: <JavascriptIcon className='fill-gray-400 h-4' />,
+        }
+      ],
+      github: "https://github.com/CDavidSV/DamiPic",
+      image: "/img/DamiPic_Screenshot.webp"
+    }
   ]);
 
   const [education] = useState<Education[]>([

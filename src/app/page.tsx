@@ -50,7 +50,7 @@ export default function Home() {
           <p>
             I'm a computer science student and software developer with a knack
             for building efficient and scalable applications. My expertise spans
-            backend development with Go and Node, frontend frameworks like React
+            backend development with Go, Node.js; frontend frameworks like React
             and Angular, and optimizing performance in complex systems. I enjoy
             tackling challenges like crafting robust APIs, implementing
             microservices, and delivering seamless user experiences.
