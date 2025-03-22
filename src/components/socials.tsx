@@ -48,7 +48,7 @@ export default function Socials() {
                 className='hover:brightness-125'
                 target='_blank'
                 aria-label="Linkedin"
-                href='https://www.linkedin.com/in/carlos-david-sandoval-vargas-3b313719b/'
+                href='https://www.linkedin.com/in/carlos-david-sandoval/'
               >
                 <Linkedin color="#6d28d9" size={26} />
               </a>
