@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { DataProvider } from "@/components/data";
+import I18nProvider from "@/components/I128nProvider";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Carlos David Sandoval Vargas",
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang='en' suppressHydrationWarning>
       <body>
+        <I18nProvider />
         <ThemeProvider
           attribute='class'
           defaultTheme='dark'

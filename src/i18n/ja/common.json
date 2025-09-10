@@ -1,0 +1,241 @@
+{
+    "resume": "職務経歴書",
+    "aboutMe": "自己紹介",
+    "aboutMeDescription": "私はモンテレイ工科大学でコンピュータサイエンスを専攻している学生であり、効率的かつスケーラブルなアプリケーション開発を得意とするソフトウェアエンジニアです。GoやNode.jsを用いたバックエンド開発、ReactやAngularを使ったフロントエンド開発、そして複雑なシステムのパフォーマンス最適化に取り組んできました。API設計やマイクロサービス構築、ユーザー体験の向上に強い関心を持っています。",
+    "footerMsg": "カルロス・デイビッド・サンドバル・バルガスが心を込めて作成しました",
+    "name": "カルロス・ダビド・サンドバル・バルガス",
+    "title": "モンテレイ工科大学 コンピュータサイエンス専攻",
+    "technologiesTitle": "技術スタック",
+    "experienceTitle": "職務経験",
+    "projectsTitle": "プロジェクト",
+    "educationTitle": "学歴",
+    "techStack": [
+        {
+            "name": "Golang",
+            "icon": "Go"
+        },
+        {
+            "name": "Typescript",
+            "icon": "Typescript"
+        },
+        {
+            "name": "Python",
+            "icon": "Python"
+        },
+        {
+            "name": "React",
+            "icon": "React"
+        },
+        {
+            "name": "Next.js",
+            "icon": "Next.js"
+        },
+        {
+            "name": "Angular",
+            "icon": "Angular"
+        },
+        {
+            "name": "Node.js",
+            "icon": "Node.js"
+        },
+        {
+            "name": "Express",
+            "icon": "Express"
+        },
+        {
+            "name": "FastAPI",
+            "icon": "FastAPI"
+        },
+        {
+            "name": "Flask",
+            "icon": "Flask"
+        },
+        {
+            "name": "Postgres",
+            "icon": "Postgres"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "MongoDB"
+        },
+        {
+            "name": "AWS",
+            "icon": "AWS"
+        },
+        {
+            "name": "Docker",
+            "icon": "Docker"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Wizeline",
+            "description": "Wizelineのアカデミーチームでソフトウェアエンジニアインターンとして勤務しました。講師機能向けの新しいビューやバックエンドモデルの実装、データ取得処理の管理、コードレビューおよび開発からステージングへのマージ作業を担当し、Odoo eラーニングモジュールの改良に貢献しました。",
+            "position": "ソフトウェアエンジニア インターン",
+            "startDate": "2024/08/01",
+            "endDate": "2024/11/29",
+            "icon": "Code"
+        }
+    ],
+    "projects": [
+        {
+            "name": "My Movie List",
+            "subtitle": "映画・ドラマ管理アプリ",
+            "description": "視聴中または視聴予定の映画やテレビ番組をリスト化し、管理できるインタラクティブなアプリです。",
+            "icon": "Film",
+            "image": "/img/mymovielist.png",
+            "link": "https://www.mymovielist.cdavidsv.dev/",
+            "github": "https://github.com/CDavidSV/Movie-List-App",
+            "technologies": [
+                {
+                    "name": "React",
+                    "icon": "React"
+                },
+                {
+                    "name": "Node.js",
+                    "icon": "Node.js"
+                },
+                {
+                    "name": "Express",
+                    "icon": "Express"
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "MongoDB"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "AWS"
+                }
+            ]
+        },
+        {
+            "name": "マルチエージェントシステムシミュレーション",
+            "subtitle": "シミュレーション",
+            "description": "車両の挙動を可視化するためのマルチエージェントシステムプロジェクトです。",
+            "icon": "Car",
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "Python"
+                },
+                {
+                    "name": "Unity",
+                    "icon": "Unity"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Avenue-Multiagent-System-Simulation-API",
+            "link": "https://drive.google.com/file/d/1L2Uh6jvCdjabWiA1vxYWZZ551p-J2Rg7/view?usp=drive_link",
+            "image": "/img/multiagentes.png"
+        },
+        {
+            "name": "LOGO",
+            "subtitle": "LOGOインタープリタの簡易実装",
+            "description": "プログラミングの基礎概念を学ぶために設計されたLOGO言語のシンプルな実装プロジェクトです。コマンドを入力して、画面上のロボットを動かしたり描画させることができます。",
+            "icon": "Turtle",
+            "image": "https://user-images.githubusercontent.com/88672259/228347709-cea9194c-845e-482e-9f94-7af26dad21a9.jpg",
+            "link": "https://logo.cdavidsv.dev/",
+            "github": "https://github.com/CDavidSV/Mini-LOGO-Language",
+            "technologies": [
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ]
+        },
+        {
+            "name": "Go-TCP-Chat",
+            "subtitle": "ターミナルチャットアプリ",
+            "description": "Goで実装されたTCPベースのチャットアプリです。複数クライアントやチャットルーム、各種コマンドをサポートしています。",
+            "icon": "MessagesSquare",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Go-TCP-Chat",
+            "image": "https://github.com/user-attachments/assets/2eb6e536-37cd-44fe-96da-9f60a420831e"
+        },
+        {
+            "name": "新年カウントダウン",
+            "subtitle": "カウントダウンページ",
+            "description": "ユーザーのタイムゾーンに合わせて新年までのカウントダウンを行うWebアプリです。花火アニメーションも共有できます。",
+            "icon": "PartyPopper",
+            "technologies": [
+                {
+                    "name": "Typescript",
+                    "icon": "Typescript"
+                },
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "AWS"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/New-Year-Countdown",
+            "link": "https://newyear.cdavidsv.dev/",
+            "image": "https://github.com/CDavidSV/New-Year-Countdown/blob/main/frontend/src/assets/images/gif_demo.gif?raw=true"
+        },
+        {
+            "name": "デッドリンクチェッカー",
+            "subtitle": "リンク切れ検出ツール",
+            "description": "ウェブサイト内のリンク切れを検出し、壊れたリンクの一覧を返すスクレイピングツールです。",
+            "icon": "Unlink",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Dead-Links-Scraper",
+            "image": "/img/deadlinks.png"
+        },
+        {
+            "name": "ASCIIのBad Apple",
+            "subtitle": "ASCII動画プレーヤー",
+            "description": "ASCII文字でターミナルにBad Apple動画を再生するアプリです。",
+            "icon": "Terminal",
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "Python"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
+            "link": "",
+            "image": "/gif/badapple.gif"
+        },
+        {
+            "name": "DamiPic",
+            "subtitle": "プレースホルダー画像生成ツール",
+            "description": "サイズ・色・形式を選び、テキストを追加してプレースホルダー画像を生成できるWebアプリです。",
+            "icon": "ImageIcon",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/DamiPic",
+            "image": "/img/DamiPic_Screenshot.webp"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tecnológico de Monterrey",
+            "subtitle": "Nuevo León, MX",
+            "description": "コンピュータサイエンス学士課程",
+            "startDate": "2021/08/01",
+            "endDate": "2026/08/01",
+            "icon": "University"
+        }
+    ]
+}

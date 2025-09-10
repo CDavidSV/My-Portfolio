@@ -1,0 +1,241 @@
+{
+    "resume": "Currículum",
+    "aboutMe": "Sobre mí",
+    "aboutMeDescription": "Soy un estudiante de ciencias de la computación y desarrollador de software con talento para construir aplicaciones eficientes y escalables. Mi experiencia abarca el desarrollo backend con Go, Node.js; frameworks frontend como React y Angular, y la optimización del rendimiento en sistemas complejos. Disfruto enfrentar desafíos como crear APIs robustas, implementar microservicios y ofrecer experiencias de usuario fluidas.",
+    "footerMsg": "Hecho con ♥ por Carlos David Sandoval Vargas",
+    "name": "Carlos David Sandoval Vargas",
+    "title": "Estudiante de Ciencias de la Computación en el Tecnológico de Monterrey",
+    "technologiesTitle": "Tecnologías",
+    "experienceTitle": "Experiencia",
+    "projectsTitle": "Proyectos",
+    "educationTitle": "Educación",
+    "techStack": [
+        {
+            "name": "Golang",
+            "icon": "Go"
+        },
+        {
+            "name": "Typescript",
+            "icon": "Typescript"
+        },
+        {
+            "name": "Python",
+            "icon": "Python"
+        },
+        {
+            "name": "React",
+            "icon": "React"
+        },
+        {
+            "name": "Next.js",
+            "icon": "Next.js"
+        },
+        {
+            "name": "Angular",
+            "icon": "Angular"
+        },
+        {
+            "name": "Node.js",
+            "icon": "Node.js"
+        },
+        {
+            "name": "Express",
+            "icon": "Express"
+        },
+        {
+            "name": "FastAPI",
+            "icon": "FastAPI"
+        },
+        {
+            "name": "Flask",
+            "icon": "Flask"
+        },
+        {
+            "name": "Postgres",
+            "icon": "Postgres"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "MongoDB"
+        },
+        {
+            "name": "AWS",
+            "icon": "AWS"
+        },
+        {
+            "name": "Docker",
+            "icon": "Docker"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Wizeline",
+            "description": "Realicé una pasantía en el equipo de la Academia de Wizeline, contribuyendo a su propia versión del módulo de aprendizaje electrónico de Odoo e implementando nuevas vistas y modelos de backend para las funcionalidades de un profesor. Administré la recuperación de datos y supervisé las revisiones y fusiones de código a través de GitHub.",
+            "position": "Pasante de Ingeniería de Software",
+            "startDate": "2024/08/01",
+            "endDate": "2024/11/29",
+            "icon": "Code"
+        }
+    ],
+    "projects": [
+        {
+            "name": "My Movie List",
+            "subtitle": "Aplicación Interactiva de Películas",
+            "description": "Una aplicación interactiva de películas que te permite crear listas y hacer un seguimiento de las películas y programas de televisión que estás viendo o planeas ver.",
+            "icon": "Film",
+            "image": "/img/mymovielist.png",
+            "link": "https://www.mymovielist.cdavidsv.dev/",
+            "github": "https://github.com/CDavidSV/Movie-List-App",
+            "technologies": [
+                {
+                    "name": "React",
+                    "icon": "React"
+                },
+                {
+                    "name": "Node.js",
+                    "icon": "Node.js"
+                },
+                {
+                    "name": "Express",
+                    "icon": "Express"
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "MongoDB"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "AWS"
+                }
+            ]
+        },
+        {
+            "name": "Simulación de Sistema Multiagente en una Avenida",
+            "subtitle": "Simulación",
+            "description": "Un proyecto de sistema multiagente para visualizar el comportamiento de los vehículos en una avenida.",
+            "icon": "Car",
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "Python"
+                },
+                {
+                    "name": "Unity",
+                    "icon": "Unity"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Avenue-Multiagent-System-Simulation-API",
+            "link": "https://drive.google.com/file/d/1L2Uh6jvCdjabWiA1vxYWZZ551p-J2Rg7/view?usp=drive_link",
+            "image": "/img/multiagentes.png"
+        },
+        {
+            "name": "LOGO",
+            "subtitle": "Implementación de un intérprete LOGO",
+            "description": "Este es un proyecto colaborativo para desarrollar un lenguaje de programación LOGO, diseñado para ayudar a los estudiantes a aprender los conceptos básicos de la lógica de programación. Se puede ingresar un conjunto de comandos para mover un robot a través de la pantalla y crear dibujos.",
+            "icon": "Turtle",
+            "image": "https://user-images.githubusercontent.com/88672259/228347709-cea9194c-845e-482e-9f94-7af26dad21a9.jpg",
+            "link": "https://logo.cdavidsv.dev/",
+            "github": "https://github.com/CDavidSV/Mini-LOGO-Language",
+            "technologies": [
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ]
+        },
+        {
+            "name": "Go-TCP-Chat",
+            "subtitle": "Aplicación de Chat en Terminal",
+            "description": "Go-TCP-Chat es una aplicación de chat basada en TCP e implementada en Golang. Soporta múltiples clientes, salas de chat y varios comandos para una experiencia de chat interactiva.",
+            "icon": "MessagesSquare",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Go-TCP-Chat",
+            "image": "https://github.com/user-attachments/assets/2eb6e536-37cd-44fe-96da-9f60a420831e"
+        },
+        {
+            "name": "Cuenta regresiva de Año Nuevo",
+            "subtitle": "Página que cuenta regresivamente al año nuevo con fuegos artificiales",
+            "description": "Cuenta regresivamente al año nuevo en la zona horaria del usuario. Permite a los usuarios disparar fuegos artificiales que otros usuarios también pueden ver.",
+            "icon": "PartyPopper",
+            "technologies": [
+                {
+                    "name": "Typescript",
+                    "icon": "Typescript"
+                },
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "AWS"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/New-Year-Countdown",
+            "link": "https://newyear.cdavidsv.dev/",
+            "image": "https://github.com/CDavidSV/New-Year-Countdown/blob/main/frontend/src/assets/images/gif_demo.gif?raw=true"
+        },
+        {
+            "name": "Comprobador de enlaces muertos",
+            "subtitle": "Comprobador de Enlaces Rotos",
+            "description": "Un web scraper que comprueba si hay enlaces rotos en un sitio web y devuelve una lista de enlaces dañados.",
+            "icon": "Unlink",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Dead-Links-Scraper",
+            "image": "/img/deadlinks.png"
+        },
+        {
+            "name": "Bad Apple en ASCII",
+            "subtitle": "Reproductor de Video ASCII",
+            "description": "Una aplicacion para mostrar el video de Bad Apple en la terminal utilizando caracteres ASCII. También se puede modificar para reproducir otros videos.",
+            "icon": "Terminal",
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "Python"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
+            "link": "",
+            "image": "/gif/badapple.gif"
+        },
+        {
+            "name": "DamiPic",
+            "subtitle": "Generador de imágenes de marcador de posición",
+            "description": "Sitio web interactivo que permite a los usuarios generar imágenes de marcador de posición. Los usuarios pueden seleccionar el tamaño, color, formato de imagen y agregar texto para mostrar en la imagen.",
+            "icon": "ImageIcon",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/DamiPic",
+            "image": "/img/DamiPic_Screenshot.webp"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tecnológico de Monterrey",
+            "subtitle": "Nuevo León, MX",
+            "description": "Ingeniería en Tecnologías Computacionales",
+            "startDate": "2021/08/01",
+            "endDate": "2026/08/01",
+            "icon": "University"
+        }
+    ]
+}

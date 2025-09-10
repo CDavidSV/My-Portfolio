@@ -1,0 +1,241 @@
+{
+    "resume": "Resume",
+    "aboutMe": "About Me",
+    "aboutMeDescription": "I'm a computer science student and software developer with a knack for building efficient and scalable applications. My expertise spans backend development with Go, Node.js; frontend frameworks like React and Angular, and optimizing performance in complex systems. I enjoy tackling challenges like crafting robust APIs, implementing microservices, and delivering seamless user experiences.",
+    "footerMsg": "Made with ♥ by Carlos David Sandoval Vargas",
+    "name": "Carlos David Sandoval Vargas",
+    "title": "CS student at Tecnológico de Monterrey",
+    "technologiesTitle": "Technologies",
+    "experienceTitle": "Experience",
+    "projectsTitle": "Projects",
+    "educationTitle": "Education",
+    "techStack": [
+        {
+            "name": "Golang",
+            "icon": "Go"
+        },
+        {
+            "name": "Typescript",
+            "icon": "Typescript"
+        },
+        {
+            "name": "Python",
+            "icon": "Python"
+        },
+        {
+            "name": "React",
+            "icon": "React"
+        },
+        {
+            "name": "Next.js",
+            "icon": "Next.js"
+        },
+        {
+            "name": "Angular",
+            "icon": "Angular"
+        },
+        {
+            "name": "Node.js",
+            "icon": "Node.js"
+        },
+        {
+            "name": "Express",
+            "icon": "Express"
+        },
+        {
+            "name": "FastAPI",
+            "icon": "FastAPI"
+        },
+        {
+            "name": "Flask",
+            "icon": "Flask"
+        },
+        {
+            "name": "Postgres",
+            "icon": "Postgres"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "MongoDB"
+        },
+        {
+            "name": "AWS",
+            "icon": "AWS"
+        },
+        {
+            "name": "Docker",
+            "icon": "Docker"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Wizeline",
+            "description": "Interned at Wizeline's Academy team, contributing to their own version of the Odoo e-learning module by implementing new views and backend models for a lecturer's feature, managing data retrieval, and overseeing code reviews and merges from development to staging.",
+            "position": "Software Engineer Intern",
+            "startDate": "2024/08/01",
+            "endDate": "2024/11/29",
+            "icon": "Code"
+        }
+    ],
+    "projects": [
+        {
+            "name": "My Movie List",
+            "subtitle": "Interactive Movie App",
+            "description": "An Interactive Movie app that allows you to create lists and keep track of the movies and TV shows you are watching or plan to watch.",
+            "icon": "Film",
+            "image": "/img/mymovielist.png",
+            "link": "https://www.mymovielist.cdavidsv.dev/",
+            "github": "https://github.com/CDavidSV/Movie-List-App",
+            "technologies": [
+                {
+                    "name": "React",
+                    "icon": "React"
+                },
+                {
+                    "name": "Node.js",
+                    "icon": "Node.js"
+                },
+                {
+                    "name": "Express",
+                    "icon": "Express"
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "MongoDB"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "AWS"
+                }
+            ]
+        },
+        {
+            "name": "Avenue Multi Agent System Simulation",
+            "subtitle": "Simulation",
+            "description": "A multi-agent system project to visualize the behavior of vehicles on an avenue.",
+            "icon": "Car",
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "Python"
+                },
+                {
+                    "name": "Unity",
+                    "icon": "Unity"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Avenue-Multiagent-System-Simulation-API",
+            "link": "https://drive.google.com/file/d/1L2Uh6jvCdjabWiA1vxYWZZ551p-J2Rg7/view?usp=drive_link",
+            "image": "/img/multiagentes.png"
+        },
+        {
+            "name": "LOGO",
+            "subtitle": "Implementation of a LOGO interpreter",
+            "description": "This is a collaborative project to develop a LOGO programming language designed to help students learn the basic concepts of programming logic. A set of commands can be entered to move a robot across the screen and create drawings.",
+            "icon": "Turtle",
+            "image": "https://user-images.githubusercontent.com/88672259/228347709-cea9194c-845e-482e-9f94-7af26dad21a9.jpg",
+            "link": "https://logo.cdavidsv.dev/",
+            "github": "https://github.com/CDavidSV/Mini-LOGO-Language",
+            "technologies": [
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ]
+        },
+        {
+            "name": "Go-TCP-Chat",
+            "subtitle": "Terminal Chat Application",
+            "description": "Go-TCP-Chat is a TCP-based chat application implemented in Golang. It supports multiple clients, chat rooms, and various commands for an interactive chatting experience.",
+            "icon": "MessagesSquare",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Go-TCP-Chat",
+            "image": "https://github.com/user-attachments/assets/2eb6e536-37cd-44fe-96da-9f60a420831e"
+        },
+        {
+            "name": "New Year Countdown",
+            "subtitle": "Page that counts down to the new year with fireworks",
+            "description": "Counts down to the new year in the user's timezone. Allows users to shoot firesworks that other users can see as well.",
+            "icon": "PartyPopper",
+            "technologies": [
+                {
+                    "name": "Typescript",
+                    "icon": "Typescript"
+                },
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "AWS",
+                    "icon": "AWS"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/New-Year-Countdown",
+            "link": "https://newyear.cdavidsv.dev/",
+            "image": "https://github.com/CDavidSV/New-Year-Countdown/blob/main/frontend/src/assets/images/gif_demo.gif?raw=true"
+        },
+        {
+            "name": "Dead Links Checker",
+            "subtitle": "Web Scraper to check for dead links",
+            "description": "A web scraper that checks for dead links in a website and returns a list of broken links.",
+            "icon": "Unlink",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Dead-Links-Scraper",
+            "image": "/img/deadlinks.png"
+        },
+        {
+            "name": "Bad Apple in ASCII",
+            "subtitle": "ASCII Video Player",
+            "description": "An app that displays the Bad Apple video in the terminal using ASCII characters.",
+            "icon": "Terminal",
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "Python"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
+            "link": "",
+            "image": "/gif/badapple.gif"
+        },
+        {
+            "name": "DamiPic",
+            "subtitle": "Generate placeholder images",
+            "description": "Interactive website that allows users to generate placeholder images. Users can select the size, color, image format, and add text to display on the image.",
+            "icon": "ImageIcon",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/DamiPic",
+            "image": "/img/DamiPic_Screenshot.webp"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tecnológico de Monterrey",
+            "subtitle": "Nuevo León, MX",
+            "description": "BSc in Computer Science",
+            "startDate": "2021/08/01",
+            "endDate": "2026/08/01",
+            "icon": "University"
+        }
+    ]
+}
