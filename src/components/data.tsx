@@ -31,6 +31,7 @@ import {
     ImageIcon,
     MessagesSquare,
 } from "lucide-react";
+import DigitalOceanIcon from "@/assets/technologies/digitalocean";
 
 interface Data {
     techStack: Technology[];
@@ -123,6 +124,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
             "Unity": <UnityIcon className='fill-purple-400 h-5' />,
             "Javascript": <JavascriptIcon className='fill-purple-400 h-5' />,
             "Next.js": <NextIcon className='fill-purple-400 h-5' />,
+            "DigitalOcean": <DigitalOceanIcon className='fill-purple-400 w-5' />,
         };
         return icons[name] || <div className='w-5 h-5' />;
     };

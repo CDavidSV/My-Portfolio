@@ -98,7 +98,7 @@ export default function Home() {
                                 className='flex items-center gap-2 rounded-full py-1 px-3 max-w-min cursor-default bg-primary/45 hover:bg-primary/65 transition-colors ease-in-out duration-300'
                             >
                                 {tech.icon}
-                                <p className='font-semibold text-sm'>
+                                <p className='font-semibold text-sm text-nowrap'>
                                     {tech.name}
                                 </p>
                             </span>
@@ -136,7 +136,7 @@ export default function Home() {
                         className='text-primary transition-all ease-in-out duration-200 hover:text-purple-400'
                         onClick={() => setAllProjects(!allProjects)}
                     >
-                        {allProjects ? "Show less" : "Show all"}
+                        {allProjects ? t("showLess") : t("showAll")}
                     </button>
                 </section>
 

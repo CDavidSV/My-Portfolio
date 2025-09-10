@@ -1,5 +1,5 @@
 {
-    "resume": "職務経歴書",
+    "resume": "履歴書",
     "aboutMe": "自己紹介",
     "aboutMeDescription": "私はモンテレイ工科大学でコンピュータサイエンスを専攻している学生であり、効率的かつスケーラブルなアプリケーション開発を得意とするソフトウェアエンジニアです。GoやNode.jsを用いたバックエンド開発、ReactやAngularを使ったフロントエンド開発、そして複雑なシステムのパフォーマンス最適化に取り組んできました。API設計やマイクロサービス構築、ユーザー体験の向上に強い関心を持っています。",
     "footerMsg": "カルロス・デイビッド・サンドバル・バルガスが心を込めて作成しました",
@@ -9,10 +9,16 @@
     "experienceTitle": "職務経験",
     "projectsTitle": "プロジェクト",
     "educationTitle": "学歴",
+    "showAll": "すべて表示",
+    "showLess": "折りたたむ",
     "techStack": [
         {
             "name": "Golang",
             "icon": "Go"
+        },
+        {
+            "name": "Javascript",
+            "icon": "Javascript"
         },
         {
             "name": "Typescript",
@@ -61,6 +67,10 @@
         {
             "name": "AWS",
             "icon": "AWS"
+        },
+        {
+            "name": "Digital Ocean",
+            "icon": "DigitalOcean"
         },
         {
             "name": "Docker",

@@ -9,10 +9,16 @@
     "experienceTitle": "Experience",
     "projectsTitle": "Projects",
     "educationTitle": "Education",
+    "showAll": "Show All",
+    "showLess": "Show Less",
     "techStack": [
         {
             "name": "Golang",
             "icon": "Go"
+        },
+        {
+            "name": "Javascript",
+            "icon": "Javascript"
         },
         {
             "name": "Typescript",
@@ -61,6 +67,10 @@
         {
             "name": "AWS",
             "icon": "AWS"
+        },
+        {
+            "name": "Digital Ocean",
+            "icon": "DigitalOcean"
         },
         {
             "name": "Docker",
