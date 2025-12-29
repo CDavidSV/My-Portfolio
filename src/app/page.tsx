@@ -9,6 +9,7 @@ import Socials from "@/components/socials";
 import ProjectCard from "@/components/projectCard";
 import EducationCard from "@/components/educationCard";
 import { DataContext } from "@/components/data";
+import { useTranslation } from "react-i18next";
 import {
     Select,
     SelectContent,
@@ -18,7 +19,6 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
-import { useTranslation } from "react-i18next";
 
 export default function Home() {
     const { data, loaded } = useContext(DataContext);

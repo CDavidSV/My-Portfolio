@@ -29,6 +29,10 @@
             "icon": "Python"
         },
         {
+            "name": "C",
+            "icon": "C"
+        },
+        {
             "name": "React",
             "icon": "React"
         },
@@ -78,6 +82,14 @@
         }
     ],
     "experience": [
+        {
+            "company": "Irvine Systems",
+            "description": "東京のIrvine Systemsでインターンとして、クライアント向けの様々なシステムの設計と実装を行いました。ドキュメント作成、アーキテクチャ設計、バックエンドとフロントエンドの実装を含む全サイクル開発に携わりました。カスタムRAGシステムを使用したAIモデルを活用し、チャット機能を持つシステムの開発に取り組みました。",
+            "position": "ソフトウェアエンジニア インターン",
+            "startDate": "2025/08/01",
+            "endDate": "2025/11/22",
+            "icon": "Code"
+        },
         {
             "company": "Wizeline",
             "description": "Wizelineのアカデミーチームでソフトウェアエンジニアインターンとして勤務しました。講師機能向けの新しいビューやバックエンドモデルの実装、データ取得処理の管理、コードレビューおよび開発からステージングへのマージ作業を担当し、Odoo eラーニングモジュールの改良に貢献しました。",
@@ -168,6 +180,40 @@
             "image": "https://github.com/user-attachments/assets/2eb6e536-37cd-44fe-96da-9f60a420831e"
         },
         {
+            "name": "GopherStore",
+            "subtitle": "軽量Redis実装",
+            "description": "Goで書かれた軽量なRedisクローンで、文字列とリストをサポートしています。RESPプロトコルの実装、キーの有効期限、並行アクセス、コマンドをテストするためのWebインターフェースを備えています。",
+            "icon": "Database",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/GopherStore",
+            "link": "https://gopherstore.cdavidsv.dev/",
+            "image": "/img/gopherstore.png"
+        },
+        {
+            "name": "DamiPic",
+            "subtitle": "プレースホルダー画像生成ツール",
+            "description": "サイズ・色・形式を選び、テキストを追加してプレースホルダー画像を生成できるWebアプリです。",
+            "icon": "ImageIcon",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/DamiPic",
+            "link": "https://damipic.cdavidsv.dev",
+            "image": "/img/DamiPic_Screenshot.webp"
+        },
+        {
             "name": "新年カウントダウン",
             "subtitle": "カウントダウンページ",
             "description": "ユーザーのタイムゾーンに合わせて新年までのカウントダウンを行うWebアプリです。花火アニメーションも共有できます。",
@@ -218,25 +264,6 @@
             "github": "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
             "link": "",
             "image": "/gif/badapple.gif"
-        },
-        {
-            "name": "DamiPic",
-            "subtitle": "プレースホルダー画像生成ツール",
-            "description": "サイズ・色・形式を選び、テキストを追加してプレースホルダー画像を生成できるWebアプリです。",
-            "icon": "ImageIcon",
-            "technologies": [
-                {
-                    "name": "Golang",
-                    "icon": "Go"
-                },
-                {
-                    "name": "Javascript",
-                    "icon": "Javascript"
-                }
-            ],
-            "github": "https://github.com/CDavidSV/DamiPic",
-            "link": "https://damipic.cdavidsv.dev",
-            "image": "/img/DamiPic_Screenshot.webp"
         }
     ],
     "education": [

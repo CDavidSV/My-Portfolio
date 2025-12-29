@@ -29,6 +29,10 @@
             "icon": "Python"
         },
         {
+            "name": "C",
+            "icon": "C"
+        },
+        {
             "name": "React",
             "icon": "React"
         },
@@ -78,6 +82,14 @@
         }
     ],
     "experience": [
+        {
+            "company": "Irvine Systems",
+            "description": "Interned at Irvine Systems in Tokyo, Japan, designing and implementing various systems for clients. I was involved in full-cycle development including documentation, architecture design, and implementation of both backend and frontend. I worked on developing a system utilizing an AI model with a custom RAG system for chatting capabilities.",
+            "position": "Software Engineer Intern",
+            "startDate": "2025/08/01",
+            "endDate": "2025/11/22",
+            "icon": "Code"
+        },
         {
             "company": "Wizeline",
             "description": "Interned at Wizeline's Academy team, contributing to their own version of the Odoo e-learning module by implementing new views and backend models for a lecturer's feature, managing data retrieval, and overseeing code reviews and merges from development to staging.",
@@ -168,6 +180,40 @@
             "image": "https://github.com/user-attachments/assets/2eb6e536-37cd-44fe-96da-9f60a420831e"
         },
         {
+            "name": "GopherStore",
+            "subtitle": "Lightweight Redis Clone",
+            "description": "A lightweight Redis clone written in Go, with support for strings and lists. Implements the RESP protocol with key expiration, concurrent access, and a web interface for testing commands.",
+            "icon": "Database",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/GopherStore",
+            "link": "https://gopherstore.cdavidsv.dev/",
+            "image": "/img/gopherstore.png"
+        },
+        {
+            "name": "DamiPic",
+            "subtitle": "Generate placeholder images",
+            "description": "Interactive website that allows users to generate placeholder images. Users can select the size, color, image format, and add text to display on the image.",
+            "icon": "ImageIcon",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/DamiPic",
+            "link": "https://damipic.cdavidsv.dev",
+            "image": "/img/DamiPic_Screenshot.webp"
+        },
+        {
             "name": "New Year Countdown",
             "subtitle": "Page that counts down to the new year with fireworks",
             "description": "Counts down to the new year in the user's timezone. Allows users to shoot firesworks that other users can see as well.",
@@ -218,25 +264,6 @@
             "github": "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
             "link": "",
             "image": "/gif/badapple.gif"
-        },
-        {
-            "name": "DamiPic",
-            "subtitle": "Generate placeholder images",
-            "description": "Interactive website that allows users to generate placeholder images. Users can select the size, color, image format, and add text to display on the image.",
-            "icon": "ImageIcon",
-            "technologies": [
-                {
-                    "name": "Golang",
-                    "icon": "Go"
-                },
-                {
-                    "name": "Javascript",
-                    "icon": "Javascript"
-                }
-            ],
-            "github": "https://github.com/CDavidSV/DamiPic",
-            "link": "https://damipic.cdavidsv.dev",
-            "image": "/img/DamiPic_Screenshot.webp"
         }
     ],
     "education": [

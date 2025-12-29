@@ -30,8 +30,10 @@ import {
     University,
     ImageIcon,
     MessagesSquare,
+    DatabaseIcon,
 } from "lucide-react";
 import DigitalOceanIcon from "@/assets/technologies/digitalocean";
+import CIcon from "@/assets/technologies/c";
 
 interface Data {
     techStack: Technology[];
@@ -101,6 +103,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
             "Go": <Go className='fill-purple-400 h-5' />,
             "Typescript": <Typescript className='fill-purple-400 h-5' />,
             "Python": <Python className='fill-purple-400 h-5' />,
+            "C": <CIcon className='fill-purple-400 h-5' />,
             "React": <ReactIcon className='fill-purple-400 h-5' />,
             "Angular": <AngularIcon className='fill-purple-400 h-5' />,
             "Node.js": <NodeJSIcon className='fill-purple-400 w-5' />,
@@ -125,6 +128,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
             "Javascript": <JavascriptIcon className='fill-purple-400 h-5' />,
             "Next.js": <NextIcon className='fill-purple-400 h-5' />,
             "DigitalOcean": <DigitalOceanIcon className='fill-purple-400 w-5' />,
+            "Database": <DatabaseIcon color='#c084fc' size={40} />
         };
         return icons[name] || <div className='w-5 h-5' />;
     };

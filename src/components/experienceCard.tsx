@@ -4,7 +4,7 @@ import { formatDateYYYMM } from "@/lib/utils";
 
 export default function ExperienceCard({ experience }: { experience: Experience }) {
     return (
-        <div className='flex flex-wrap-reverse md:flex-nowrap justify-between gap-1 md:gap-4'>
+        <div className='flex flex-wrap-reverse md:flex-nowrap justify-between gap-1 md:gap-4 mb-6'>
             <div className='flex justify-start gap-4'>
                 <div className='rounded-full bg-primary/45 h-fit p-2'>
                     {experience.icon}

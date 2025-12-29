@@ -1,10 +1,10 @@
 {
     "resume": "Currículum",
     "aboutMe": "Sobre mí",
-    "aboutMeDescription": "Soy un estudiante de ciencias de la computación y desarrollador de software con talento para construir aplicaciones eficientes y escalables. Mi experiencia abarca el desarrollo backend con Go, Node.js; frameworks frontend como React y Angular, y la optimización del rendimiento en sistemas complejos. Disfruto enfrentar desafíos como crear APIs robustas, implementar microservicios y ofrecer experiencias de usuario fluidas.",
+    "aboutMeDescription": "Soy un estudiante de ciencias computacionales y desarrollador de software con talento para construir aplicaciones eficientes y escalables. Mi experiencia abarca el desarrollo backend con Go, Node.js; frameworks frontend como React y Angular, y la optimización del rendimiento en sistemas complejos. Disfruto enfrentar desafíos como crear APIs robustas, implementar microservicios y ofrecer experiencias de usuario fluidas.",
     "footerMsg": "Hecho con ♥ por Carlos David Sandoval Vargas",
     "name": "Carlos David Sandoval Vargas",
-    "title": "Estudiante de Ciencias de la Computación en el Tecnológico de Monterrey",
+    "title": "Estudiante de Ciencias Computacionales en el Tecnológico de Monterrey",
     "technologiesTitle": "Tecnologías",
     "experienceTitle": "Experiencia",
     "projectsTitle": "Proyectos",
@@ -27,6 +27,10 @@
         {
             "name": "Python",
             "icon": "Python"
+        },
+        {
+            "name": "C",
+            "icon": "C"
         },
         {
             "name": "React",
@@ -78,6 +82,14 @@
         }
     ],
     "experience": [
+        {
+            "company": "Irvine Systems",
+            "description": "Realicé una pasantía en Irvine Systems en Tokio, Japón, diseñando e implementando varios sistemas para clientes. Participé en el ciclo completo de desarrollo incluyendo documentación, diseño de arquitectura e implementación de los sistemas backend y frontend. Trabajé en el desarrollo de un sistema que utiliza un modelo de IA con un sistema RAG personalizado para capacidades de chat.",
+            "position": "Pasante de Ingeniería de Software",
+            "startDate": "2025/08/01",
+            "endDate": "2025/11/22",
+            "icon": "Code"
+        },
         {
             "company": "Wizeline",
             "description": "Realicé una pasantía en el equipo de la Academia de Wizeline, contribuyendo a su propia versión del módulo de aprendizaje electrónico de Odoo e implementando nuevas vistas y modelos de backend para las funcionalidades de un profesor. Administré la recuperación de datos y supervisé las revisiones y fusiones de código a través de GitHub.",
@@ -168,6 +180,40 @@
             "image": "https://github.com/user-attachments/assets/2eb6e536-37cd-44fe-96da-9f60a420831e"
         },
         {
+            "name": "GopherStore",
+            "subtitle": "Clon Ligero de Redis",
+            "description": "Un clon ligero de Redis escrito en Go, con soporte para cadenas de texto y listas. Implementa el protocolo RESP con expiración de claves, acceso concurrente y una interfaz web para probar comandos.",
+            "icon": "Database",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/GopherStore",
+            "link": "https://gopherstore.cdavidsv.dev/",
+            "image": "/img/gopherstore.png"
+        },
+        {
+            "name": "DamiPic",
+            "subtitle": "Generador de imágenes de marcador de posición",
+            "description": "Sitio web interactivo que permite a los usuarios generar imágenes de marcador de posición. Los usuarios pueden seleccionar el tamaño, color, formato de imagen y agregar texto para mostrar en la imagen.",
+            "icon": "ImageIcon",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "Javascript"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/DamiPic",
+            "link": "https://damipic.cdavidsv.dev",
+            "image": "/img/DamiPic_Screenshot.webp"
+        },
+        {
             "name": "Cuenta regresiva de Año Nuevo",
             "subtitle": "Página que cuenta regresivamente al año nuevo con fuegos artificiales",
             "description": "Cuenta regresivamente al año nuevo en la zona horaria del usuario. Permite a los usuarios disparar fuegos artificiales que otros usuarios también pueden ver.",
@@ -218,25 +264,6 @@
             "github": "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
             "link": "",
             "image": "/gif/badapple.gif"
-        },
-        {
-            "name": "DamiPic",
-            "subtitle": "Generador de imágenes de marcador de posición",
-            "description": "Sitio web interactivo que permite a los usuarios generar imágenes de marcador de posición. Los usuarios pueden seleccionar el tamaño, color, formato de imagen y agregar texto para mostrar en la imagen.",
-            "icon": "ImageIcon",
-            "technologies": [
-                {
-                    "name": "Golang",
-                    "icon": "Go"
-                },
-                {
-                    "name": "Javascript",
-                    "icon": "Javascript"
-                }
-            ],
-            "github": "https://github.com/CDavidSV/DamiPic",
-            "link": "https://damipic.cdavidsv.dev",
-            "image": "/img/DamiPic_Screenshot.webp"
         }
     ],
     "education": [
