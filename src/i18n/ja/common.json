@@ -101,6 +101,29 @@
     ],
     "projects": [
         {
+            "name": "Online Flip Flop",
+            "subtitle": "リアルタイム対戦型戦略ゲーム",
+            "description": "中島 雅弘氏による抽象戦略ボードゲーム「FlipFlop」のオンラインマルチプレイヤー実装です。マルチプレイヤーゲームプレイ、観戦モード、ゲーム内チャット機能を搭載しています。",
+            "icon": "Gamepad2",
+            "image": "/img/FlipFlop_Example.png",
+            "link": "https://flipflop.cdavidsv.dev/",
+            "github": "https://github.com/CDavidSV/online-flip-flop",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "Next.js",
+                    "icon": "Next.js"
+                },
+                {
+                    "name": "Typescript",
+                    "icon": "Typescript"
+                }
+            ]
+        },
+        {
             "name": "My Movie List",
             "subtitle": "映画・ドラマ管理アプリ",
             "description": "視聴中または視聴予定の映画やテレビ番組をリスト化し、管理できるインタラクティブなアプリです。",

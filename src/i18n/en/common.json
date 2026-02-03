@@ -101,6 +101,29 @@
     ],
     "projects": [
         {
+            "name": "Online Flip Flop",
+            "subtitle": "Real-time Multiplayer Strategy Game",
+            "description": "An online multiplayer implementation of FlipFlop, the abstract strategy board game by Masahiro Nakajima. Features multiplayer gameplay, spectator mode, and an in-game chat.",
+            "icon": "Gamepad2",
+            "image": "/img/FlipFlop_Example.png",
+            "link": "https://flipflop.cdavidsv.dev/",
+            "github": "https://github.com/CDavidSV/online-flip-flop",
+            "technologies": [
+                {
+                    "name": "Golang",
+                    "icon": "Go"
+                },
+                {
+                    "name": "Next.js",
+                    "icon": "Next.js"
+                },
+                {
+                    "name": "Typescript",
+                    "icon": "Typescript"
+                }
+            ]
+        },
+        {
             "name": "My Movie List",
             "subtitle": "Interactive Movie App",
             "description": "An Interactive Movie app that allows you to create lists and keep track of the movies and TV shows you are watching or plan to watch.",

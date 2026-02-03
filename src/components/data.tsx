@@ -31,6 +31,7 @@ import {
     ImageIcon,
     MessagesSquare,
     DatabaseIcon,
+    Gamepad2,
 } from "lucide-react";
 import DigitalOceanIcon from "@/assets/technologies/digitalocean";
 import CIcon from "@/assets/technologies/c";
@@ -128,7 +129,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
             "Javascript": <JavascriptIcon className='fill-purple-400 h-5' />,
             "Next.js": <NextIcon className='fill-purple-400 h-5' />,
             "DigitalOcean": <DigitalOceanIcon className='fill-purple-400 w-5' />,
-            "Database": <DatabaseIcon color='#c084fc' size={40} />
+            "Database": <DatabaseIcon color='#c084fc' size={40} />,
+            'Gamepad2': <Gamepad2 color='#c084fc' size={40} />,
         };
         return icons[name] || <div className='w-5 h-5' />;
     };
