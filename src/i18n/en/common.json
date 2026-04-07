@@ -287,6 +287,21 @@
             "github": "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
             "link": "",
             "image": "/gif/badapple.gif"
+        },
+        {
+            "name": "Snake in Python",
+            "subtitle": "Snake in python but with a train instead",
+            "description": "A Snake game implemented in Python with pygame, where you control a train and pick up passengers. You can go through walls that teleport you to the opposite side of the map but if you collide with yourself you lose. The game also saves the highest score achieved. You can download the game using the link below.",
+            "icon": "Gamepad",
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "Python"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Snake-in-Python",
+            "link": "https://drive.google.com/drive/folders/1bQX0GSna0yh7azdDK6rB21ujQ0COqRCw?usp=sharing",
+            "image": "/img/snake.jpg"
         }
     ],
     "education": [

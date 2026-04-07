@@ -287,6 +287,21 @@
             "github": "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
             "link": "",
             "image": "/gif/badapple.gif"
+        },
+        {
+            "name": "Pythonのスネーク",
+            "subtitle": "Pythonのスネーク（電車版）",
+            "description": "Pythonとpygameで実装されたスネークゲームです。電車を操作して乗客を拾います。壁を通り抜けると画面の反対側にテレポートできますが、自分自身に衝突するとゲームオーバーです。ゲームは最高スコアを保存します。下のリンクからゲームをダウンロードできます。",
+            "icon": "Gamepad",
+            "technologies": [
+                {
+                    "name": "Python",
+                    "icon": "Python"
+                }
+            ],
+            "github": "https://github.com/CDavidSV/Snake-in-Python",
+            "link": "https://drive.google.com/drive/folders/1bQX0GSna0yh7azdDK6rB21ujQ0COqRCw?usp=sharing",
+            "image": "/img/snake.jpg"
         }
     ],
     "education": [
