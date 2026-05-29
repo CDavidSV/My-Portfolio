@@ -130,7 +130,7 @@
             "description": "視聴中または視聴予定の映画やテレビ番組をリスト化し、管理できるインタラクティブなアプリです。",
             "icon": "Film",
             "image": "/img/mymovielist.webp",
-            "link": "https://www.mymovielist.cdavidsv.dev/",
+            "link": "https://mymovielist.cdavidsv.dev/",
             "github": "https://github.com/CDavidSV/Movie-List-App",
             "technologies": [
                 {

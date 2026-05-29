@@ -130,7 +130,7 @@
             "description": "Una aplicación interactiva de películas que te permite crear listas y hacer un seguimiento de las películas y programas de televisión que estás viendo o planeas ver.",
             "icon": "Film",
             "image": "/img/mymovielist.webp",
-            "link": "https://www.mymovielist.cdavidsv.dev/",
+            "link": "https://mymovielist.cdavidsv.dev/",
             "github": "https://github.com/CDavidSV/Movie-List-App",
             "technologies": [
                 {
