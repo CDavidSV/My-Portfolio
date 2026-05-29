@@ -31,7 +31,7 @@ export default function Socials() {
                                 className='hover:brightness-125'
                                 target='_blank'
                                 aria-label='Resume'
-                                href='https://cdn.cdavidsv.dev/Carlos_David_Resume_English.pdf'
+                                href={t("resumeURL")}
                             >
                                 <span>
                                     <FileText color='#6d28d9' size={26} />
