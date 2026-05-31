@@ -28,22 +28,25 @@ export default function Home() {
     const [allProjects, setAllProjects] = useState<boolean>(false);
 
     return (
-        <div className={'flex justify-center min-h-screen transition-opacity duration-300 ease-in-out' + (loaded ? '' : ' opacity-0')}>
+        <div
+            className={
+                "flex justify-center min-h-screen transition-opacity duration-300 ease-in-out" +
+                (loaded ? "" : " opacity-0")
+            }
+        >
             <div className='content p-10'>
                 {/* header for general info */}
                 <header>
                     <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-normal'>
                         <Avatar className='h-[150px] w-[150px] mr-0 mb-3 md:mb-0 md:mr-6'>
                             <AvatarImage
-                                src='/img/CDavidBiblio.webp'
+                                src='/img/CDavid_Grad.webp'
                                 alt='Carlos David Sandoval Vargas'
                             />
                             <AvatarFallback>CS</AvatarFallback>
                         </Avatar>
                         <div className='text-center md:text-start flex justify-center flex-col w-full'>
-                            <h1 className='text-4xl font-bold'>
-                                {t("name")}
-                            </h1>
+                            <h1 className='text-4xl font-bold'>{t("name")}</h1>
                             <h2 className='text-xl font-semibold md:font-bold mt-2'>
                                 {t("title")}
                             </h2>
@@ -55,7 +58,12 @@ export default function Home() {
 
                             <div className='flex justify-center md:justify-between items-center gap-4 flex-wrap md:flex-nowrap'>
                                 <Socials />
-                                <Select defaultValue='en' onValueChange={(value) => i18n.changeLanguage(value)}>
+                                <Select
+                                    defaultValue='en'
+                                    onValueChange={(value) =>
+                                        i18n.changeLanguage(value)
+                                    }
+                                >
                                     <SelectTrigger className='w-[130px]'>
                                         <SelectValue placeholder='Language' />
                                     </SelectTrigger>
@@ -80,17 +88,19 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <h3 className='mt-6 mb-2 text-2xl font-bold'>{t("aboutMe")}</h3>
-                    <p>
-                        {t("aboutMeDescription")}
-                    </p>
+                    <h3 className='mt-6 mb-2 text-2xl font-bold'>
+                        {t("aboutMe")}
+                    </h3>
+                    <p>{t("aboutMeDescription")}</p>
                 </header>
 
                 <Separator className='my-8' orientation='horizontal' />
 
                 {/* Technologies section */}
                 <section>
-                    <h3 className='mb-3 text-2xl font-bold'>{t("technologiesTitle")}</h3>
+                    <h3 className='mb-3 text-2xl font-bold'>
+                        {t("technologiesTitle")}
+                    </h3>
                     <div className='flex gap-2 flex-wrap justify-center md:justify-normal'>
                         {techStack.map((tech) => (
                             <span
@@ -109,7 +119,9 @@ export default function Home() {
                 <Separator className='my-8' orientation='horizontal' />
 
                 <section>
-                    <h3 className='mb-3 text-2xl font-bold'>{t("experienceTitle")}</h3>
+                    <h3 className='mb-3 text-2xl font-bold'>
+                        {t("experienceTitle")}
+                    </h3>
                     {experience.map((exp) => (
                         <ExperienceCard key={exp.company} experience={exp} />
                     ))}
@@ -117,7 +129,9 @@ export default function Home() {
 
                 <Separator className='my-8' orientation='horizontal' />
                 <section>
-                    <h3 className='mb-3 text-2xl font-bold'>{t("projectsTitle")}</h3>
+                    <h3 className='mb-3 text-2xl font-bold'>
+                        {t("projectsTitle")}
+                    </h3>
                     {projects.map((p, i) =>
                         i > 4 ? (
                             <div
@@ -130,7 +144,7 @@ export default function Home() {
                             <div key={p.name}>
                                 <ProjectCard project={p} />
                             </div>
-                        )
+                        ),
                     )}
                     <button
                         className='text-primary transition-all ease-in-out duration-200 hover:text-purple-400'
@@ -143,7 +157,9 @@ export default function Home() {
                 <Separator className='my-8' orientation='horizontal' />
 
                 <section>
-                    <h3 className='mb-3 text-2xl font-bold'>{t("educationTitle")}</h3>
+                    <h3 className='mb-3 text-2xl font-bold'>
+                        {t("educationTitle")}
+                    </h3>
                     {education.map((edu) => (
                         <EducationCard key={edu.institution} education={edu} />
                     ))}
