@@ -2,10 +2,10 @@
     "resume": "Resume",
     "aboutMe": "About Me",
     "resumeURL": "https://cdn.cdavidsv.dev/Carlos_David_Sandoval_Resume_English.pdf",
-    "aboutMeDescription": "I'm a computer science student and software developer with a knack for building efficient and scalable applications. My expertise spans backend development with Go, Node.js; frontend frameworks like React and Angular, and optimizing performance in complex systems. I enjoy tackling challenges like crafting robust APIs, implementing microservices, and delivering seamless user experiences.",
+    "aboutMeDescription": "I'm a software engineer with experience building production systems at companies like Wizeline and Irvine Systems, spanning backend architecture, AI-powered applications, and full-stack development. I specialize in Go and Node.js on the backend, React and Angular on the front, and I'm always chasing ways to make systems faster and more scalable.",
     "footerMsg": "Made with ♥ by Carlos David Sandoval Vargas",
     "name": "Carlos David Sandoval Vargas",
-    "title": "CS student at Tecnológico de Monterrey",
+    "title": "Software Engineer | Full Stack Developer",
     "technologiesTitle": "Technologies",
     "experienceTitle": "Experience",
     "projectsTitle": "Projects",
@@ -28,6 +28,10 @@
         {
             "name": "Python",
             "icon": "Python"
+        },
+        {
+            "name": "Java",
+            "icon": "Java"
         },
         {
             "name": "C",
@@ -326,7 +330,7 @@
             "subtitle": "Nuevo León, MX",
             "description": "BSc in Computer Science",
             "startDate": "2021/08/01",
-            "endDate": "2026/08/01",
+            "endDate": "2026/07/01",
             "icon": "University"
         }
     ]

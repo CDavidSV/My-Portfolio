@@ -19,6 +19,9 @@ import ExpressIcon from "@/assets/technologies/express";
 import { Technology, Experience, Project, Education } from "../interfaces";
 import FlaskIcon from "@/assets/technologies/flask";
 import NextIcon from "@/assets/technologies/next";
+import DigitalOceanIcon from "@/assets/technologies/digitalocean";
+import CIcon from "@/assets/technologies/c";
+import JavaIcon from "@/assets/technologies/java";
 import {
     Code,
     Film,
@@ -34,8 +37,6 @@ import {
     Gamepad,
     Gamepad2,
 } from "lucide-react";
-import DigitalOceanIcon from "@/assets/technologies/digitalocean";
-import CIcon from "@/assets/technologies/c";
 
 interface Data {
     techStack: Technology[];
@@ -103,6 +104,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     const getIconByName = (name: string) => {
         const icons: { [key: string]: JSX.Element } = {
             "Go": <Go className='fill-purple-400 h-5' />,
+            "Java": <JavaIcon className='fill-purple-400 h-5 w-5' />,
             "Typescript": <Typescript className='fill-purple-400 h-5' />,
             "Python": <Python className='fill-purple-400 h-5' />,
             "C": <CIcon className='fill-purple-400 h-5' />,

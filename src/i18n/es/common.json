@@ -2,10 +2,10 @@
     "resume": "Currículum",
     "aboutMe": "Sobre mí",
     "resumeURL": "https://cdn.cdavidsv.dev/Carlos_David_Sandoval_Resume_Spanish.pdf",
-    "aboutMeDescription": "Soy un estudiante de ciencias computacionales y desarrollador de software con talento para construir aplicaciones eficientes y escalables. Mi experiencia abarca el desarrollo backend con Go, Node.js; frameworks frontend como React y Angular, y la optimización del rendimiento en sistemas complejos. Disfruto enfrentar desafíos como crear APIs robustas, implementar microservicios y ofrecer experiencias de usuario fluidas.",
+    "aboutMeDescription": "Soy ingeniero de software con experiencia en el desarrollo de sistemas en producción en empresas como Wizeline e Irvine Systems, abarcando arquitectura backend, aplicaciones con inteligencia artificial y desarrollo full-stack. Me especializo en Go y Node.js para el backend, React y Angular para el frontend, y siempre estoy buscando formas de hacer que los sistemas sean más rápidos y escalables.",
     "footerMsg": "Hecho con ♥ por Carlos David Sandoval Vargas",
     "name": "Carlos David Sandoval Vargas",
-    "title": "Estudiante de Ciencias Computacionales en el Tecnológico de Monterrey",
+    "title": "Ingeniero de Software | Desarrollador Full Stack",
     "technologiesTitle": "Tecnologías",
     "experienceTitle": "Experiencia",
     "projectsTitle": "Proyectos",
@@ -28,6 +28,10 @@
         {
             "name": "Python",
             "icon": "Python"
+        },
+        {
+            "name": "Java",
+            "icon": "Java"
         },
         {
             "name": "C",
@@ -303,8 +307,7 @@
             "github": "https://github.com/CDavidSV/Snake-in-Python",
             "link": "https://drive.google.com/drive/folders/1bQX0GSna0yh7azdDK6rB21ujQ0COqRCw?usp=sharing",
             "image": "/img/snake.webp"
-        }
-        ,
+        },
         {
             "name": "Comparador de Bases de Datos",
             "subtitle": "Herramienta de línea de comandos para comparar bases de datos",
@@ -327,7 +330,7 @@
             "subtitle": "Nuevo León, MX",
             "description": "Ingeniería en Tecnologías Computacionales",
             "startDate": "2021/08/01",
-            "endDate": "2026/08/01",
+            "endDate": "2026/07/01",
             "icon": "University"
         }
     ]

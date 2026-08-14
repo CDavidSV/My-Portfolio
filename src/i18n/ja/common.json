@@ -2,10 +2,10 @@
     "resume": "履歴書",
     "aboutMe": "自己紹介",
     "resumeURL": "https://cdn.cdavidsv.dev/Carlos_David_Sandoval_Resume_English.pdf",
-    "aboutMeDescription": "私はモンテレイ工科大学でコンピュータサイエンスを専攻している学生であり、効率的かつスケーラブルなアプリケーション開発を得意とするソフトウェアエンジニアです。GoやNode.jsを用いたバックエンド開発、ReactやAngularを使ったフロントエンド開発、そして複雑なシステムのパフォーマンス最適化に取り組んできました。API設計やマイクロサービス構築、ユーザー体験の向上に強い関心を持っています。",
+    "aboutMeDescription": "Wizeline や Irvine Systems などの企業で、バックエンドアーキテクチャ、AI搭載アプリケーション、フルスタック開発にわたる本番システムの構築経験を持つソフトウェアエンジニアです。バックエンドは Go と Node.js、フロントエンドは React と Angular を専門とし、システムをより高速かつスケーラブルにする方法を常に追求しています。",
     "footerMsg": "カルロス・デイビッド・サンドバル・バルガスが心を込めて作成しました",
     "name": "カルロス・ダビド・サンドバル・バルガス",
-    "title": "モンテレイ工科大学 コンピュータサイエンス専攻",
+    "title": "ソフトウェアエンジニア | フルスタック開発者",
     "technologiesTitle": "技術スタック",
     "experienceTitle": "職務経験",
     "projectsTitle": "プロジェクト",
@@ -28,6 +28,10 @@
         {
             "name": "Python",
             "icon": "Python"
+        },
+        {
+            "name": "Java",
+            "icon": "Java"
         },
         {
             "name": "C",
@@ -303,8 +307,7 @@
             "github": "https://github.com/CDavidSV/Snake-in-Python",
             "link": "https://drive.google.com/drive/folders/1bQX0GSna0yh7azdDK6rB21ujQ0COqRCw?usp=sharing",
             "image": "/img/snake.webp"
-        }
-        ,
+        },
         {
             "name": "データベース比較",
             "subtitle": "データベースを比較するコマンドラインツール",
@@ -327,7 +330,7 @@
             "subtitle": "Nuevo León, MX",
             "description": "コンピュータサイエンス学士課程",
             "startDate": "2021/08/01",
-            "endDate": "2026/08/01",
+            "endDate": "2026/07/01",
             "icon": "University"
         }
     ]
