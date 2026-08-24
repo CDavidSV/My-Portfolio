@@ -3,6 +3,9 @@
     "aboutMe": "Sobre mí",
     "resumeURL": "https://cdn.cdavidsv.dev/Carlos_David_Sandoval_Resume_Spanish.pdf",
     "aboutMeDescription": "Soy ingeniero de software con experiencia en el desarrollo de sistemas en producción en empresas como Wizeline e Irvine Systems, abarcando arquitectura backend, aplicaciones con inteligencia artificial y desarrollo full-stack. Me especializo en Go y Node.js para el backend, React y Angular para el frontend, y siempre estoy buscando formas de hacer que los sistemas sean más rápidos y escalables.",
+    "availabilityTitle": "Disponible para oportunidades de tiempo completo",
+    "availabilityDescription": "Estoy disponible para puestos de ingeniero de software y desarrollador full stack, en modalidades presencial, hibrida o remota.",
+    "contactEmail": "Escríbeme por correo",
     "footerMsg": "Hecho con ♥ por Carlos David Sandoval Vargas",
     "name": "Carlos David Sandoval Vargas",
     "title": "Ingeniero de Software | Desarrollador Full Stack",
@@ -12,6 +15,13 @@
     "educationTitle": "Educación",
     "showAll": "Mostrar Todo",
     "showLess": "Mostrar Menos",
+    "language": "Idioma",
+    "socialLinks": "Enlaces sociales",
+    "email": "Correo electrónico",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "viewProject": "Abrir el proyecto {{project}} en una nueva pestaña",
+    "viewRepository": "Abrir el repositorio de {{project}} en una nueva pestaña",
     "techStack": [
         {
             "name": "Golang",

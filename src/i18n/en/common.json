@@ -3,6 +3,9 @@
     "aboutMe": "About Me",
     "resumeURL": "https://cdn.cdavidsv.dev/Carlos_David_Sandoval_Resume_English.pdf",
     "aboutMeDescription": "I'm a software engineer with experience building production systems at companies like Wizeline and Irvine Systems, spanning backend architecture, AI-powered applications, and full-stack development. I specialize in Go and Node.js on the backend, React and Angular on the front, and I'm always chasing ways to make systems faster and more scalable.",
+    "availabilityTitle": "Open to full-time opportunities",
+    "availabilityDescription": "I am available for Software Engineer and Full Stack Developer roles, with on-site, hybrid, and remote work arrangements.",
+    "contactEmail": "Email me",
     "footerMsg": "Made with ♥ by Carlos David Sandoval Vargas",
     "name": "Carlos David Sandoval Vargas",
     "title": "Software Engineer | Full Stack Developer",
@@ -12,6 +15,13 @@
     "educationTitle": "Education",
     "showAll": "Show All",
     "showLess": "Show Less",
+    "language": "Language",
+    "socialLinks": "Social links",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "viewProject": "Open {{project}} live project in a new tab",
+    "viewRepository": "Open {{project}} repository in a new tab",
     "techStack": [
         {
             "name": "Golang",

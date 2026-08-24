@@ -3,6 +3,9 @@
     "aboutMe": "自己紹介",
     "resumeURL": "https://cdn.cdavidsv.dev/Carlos_David_Sandoval_Resume_English.pdf",
     "aboutMeDescription": "Wizeline や Irvine Systems などの企業で、バックエンドアーキテクチャ、AI搭載アプリケーション、フルスタック開発にわたる本番システムの構築経験を持つソフトウェアエンジニアです。バックエンドは Go と Node.js、フロントエンドは React と Angular を専門とし、システムをより高速かつスケーラブルにする方法を常に追求しています。",
+    "availabilityTitle": "フルタイムの機会を探しています",
+    "availabilityDescription": "ソフトウェアエンジニアおよびフルスタック開発者のフルタイム職を希望しています。出社、ハイブリッド、リモートのいずれの勤務形態にも対応できます。",
+    "contactEmail": "メールで連絡する",
     "footerMsg": "カルロス・デイビッド・サンドバル・バルガスが心を込めて作成しました",
     "name": "カルロス・ダビド・サンドバル・バルガス",
     "title": "ソフトウェアエンジニア | フルスタック開発者",
@@ -12,6 +15,13 @@
     "educationTitle": "学歴",
     "showAll": "すべて表示",
     "showLess": "折りたたむ",
+    "language": "言語",
+    "socialLinks": "ソーシャルリンク",
+    "email": "メール",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "viewProject": "{{project}} のプロジェクトを新しいタブで開く",
+    "viewRepository": "{{project}} のリポジトリを新しいタブで開く",
     "techStack": [
         {
             "name": "Golang",
