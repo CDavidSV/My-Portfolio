@@ -36,6 +36,7 @@ import {
     DatabaseIcon,
     Gamepad,
     Gamepad2,
+    Radio,
 } from "lucide-react";
 
 interface Data {
@@ -91,6 +92,26 @@ export function DataProvider({ children }: { children: ReactNode }) {
             item.endDate = new Date(item.endDate);
         });
 
+        const projectOrder = [
+            "https://github.com/CDavidSV/online-flip-flop",
+            "https://github.com/CDavidSV/GopherStore",
+            "https://github.com/CDavidSV/LaraMQ",
+            "https://github.com/CDavidSV/Movie-List-App",
+            "https://github.com/CDavidSV/DamiPic",
+            "https://github.com/CDavidSV/Go-TCP-Chat",
+            "https://github.com/CDavidSV/Avenue-Multiagent-System-Simulation-API",
+            "https://github.com/CDavidSV/go-dbcompare",
+            "https://github.com/CDavidSV/New-Year-Countdown",
+            "https://github.com/CDavidSV/Mini-LOGO-Language",
+            "https://github.com/CDavidSV/Dead-Links-Scraper",
+            "https://github.com/CDavidSV/Snake-in-Python",
+            "https://github.com/CDavidSV/Bad-Apple-in-ASCII",
+        ];
+        projectsFromStorage.sort(
+            (firstProject, secondProject) =>
+                projectOrder.indexOf(firstProject.github) - projectOrder.indexOf(secondProject.github)
+        );
+
         const translatedData: Data = {
             techStack: techStackFromStorage,
             experience: experienceFromStorage,
@@ -135,6 +156,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
             "Database": <DatabaseIcon color='#c084fc' size={40} />,
             "Gamepad": <Gamepad color='#c084fc' size={40} />,
             'Gamepad2': <Gamepad2 color='#c084fc' size={40} />,
+            "Radio": <Radio color='#c084fc' size={40} />,
         };
         return icons[name] || <div className='w-5 h-5' />;
     };
