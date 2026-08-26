@@ -75,7 +75,6 @@ export default function ProjectCard({ project }: { project: Project }) {
                     width={500}
                     height={500}
                     sizes='(max-width: 639px) 100vw, 33vw'
-                    unoptimized={project.image.endsWith(".gif")}
                     className='object-cover w-full h-full'
                 />
             </div>
