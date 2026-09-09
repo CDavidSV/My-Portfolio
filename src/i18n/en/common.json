@@ -336,7 +336,7 @@
         {
             "name": "LaraMQ",
             "subtitle": "Lightweight Java Pub/Sub Message Broker",
-            "description": "A lightweight publish/subscribe message broker written in Java, named after my cat, Lara. Clients connect over TCP to subscribe, unsubscribe, and publish messages per topic, with support for message retention so new subscribers instantly receive the latest value, plus a built-in analytics command for runtime stats.",
+            "description": "A lightweight Java pub/sub broker where clients connect over TCP to subscribe, publish, and receive messages, with reconnect redelivery, retained messages, and built-in runtime analytics.",
             "icon": "Radio",
             "technologies": [
                 {
